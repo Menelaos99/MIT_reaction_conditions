@@ -1,0 +1,177 @@
+[
+    {
+        "params": {
+            "featurisation": "mtencoder_pretrain",
+            "model_type": "GNN",
+            "task": "sint",
+            "use_only_target": false
+        },
+        "train_maes": [
+            0.4267509544495141
+        ],
+        "test_maes": [
+            142.15577892990586
+        ],
+        "val_maes": [
+            133.33443900785298
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "mtencoder_pretrain",
+            "model_type": "NN",
+            "task": "sint",
+            "use_only_target": false,
+            "concat": false
+        },
+        "train_maes": [
+            0.31136228279633954
+        ],
+        "test_maes": [
+            126.4983901977539
+        ],
+        "val_maes": [
+            134.64649963378906
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "mtencoder_256",
+            "model_type": "GNN",
+            "task": "sint",
+            "use_only_target": false
+        },
+        "train_maes": [
+            0.42329636028686524
+        ],
+        "test_maes": [
+            137.7595675829775
+        ],
+        "val_maes": [
+            132.38964878536876
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "mtencoder_256",
+            "model_type": "NN",
+            "task": "sint",
+            "use_only_target": false,
+            "concat": false
+        },
+        "train_maes": [
+            0.40617451071739197
+        ],
+        "test_maes": [
+            139.38465881347656
+        ],
+        "val_maes": [
+            136.7797088623047
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "composition",
+            "model_type": "GNN",
+            "task": "sint",
+            "use_only_target": false
+        },
+        "train_maes": [
+            0.3598211325296489
+        ],
+        "test_maes": [
+            129.55157131408313
+        ],
+        "val_maes": [
+            135.62679601481543
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "composition",
+            "model_type": "NN",
+            "task": "sint",
+            "use_only_target": false,
+            "concat": false
+        },
+        "train_maes": [
+            0.29516600478779187
+        ],
+        "test_maes": [
+            120.96197509765625
+        ],
+        "val_maes": [
+            144.4403076171875
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "matscibert",
+            "model_type": "GNN",
+            "task": "sint",
+            "use_only_target": false
+        },
+        "train_maes": [
+            0.44296553636788283
+        ],
+        "test_maes": [
+            150.40799943438228
+        ],
+        "val_maes": [
+            140.82318962769187
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "matscibert",
+            "model_type": "NN",
+            "task": "sint",
+            "use_only_target": false,
+            "concat": false
+        },
+        "train_maes": [
+            0.5225500991178114
+        ],
+        "test_maes": [
+            178.09910583496094
+        ],
+        "val_maes": [
+            156.62098693847656
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "matminer",
+            "model_type": "GNN",
+            "task": "sint",
+            "use_only_target": false
+        },
+        "train_maes": [
+            0.48555719792031515
+        ],
+        "test_maes": [
+            159.6425722489446
+        ],
+        "val_maes": [
+            148.20331531583955
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "matminer",
+            "model_type": "NN",
+            "task": "sint",
+            "use_only_target": false,
+            "concat": false
+        },
+        "train_maes": [
+            0.4683917959531148
+        ],
+        "test_maes": [
+            158.2561492919922
+        ],
+        "val_maes": [
+            141.99093627929688
+        ]
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "params": {
+            "featurisation": "mtencoder_pretrain",
+            "model_type": "GNN",
+            "task": "sint",
+            "use_only_target": false
+        },
+        "train_maes": [
+            0.38767321686746375
+        ],
+        "test_maes": [
+            134.61490379949535
+        ],
+        "val_maes": [
+            136.99185278699807
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "mtencoder_pretrain",
+            "model_type": "NN",
+            "task": "sint",
+            "use_only_target": false,
+            "concat": false
+        },
+        "train_maes": [
+            0.38159066709605133
+        ],
+        "test_maes": [
+            134.87477111816406
+        ],
+        "val_maes": [
+            128.7827911376953
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "composition",
+            "model_type": "GNN",
+            "task": "sint",
+            "use_only_target": false
+        },
+        "train_maes": [
+            0.3250881086463083
+        ],
+        "test_maes": [
+            126.19167226471517
+        ],
+        "val_maes": [
+            138.67597662574886
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "composition",
+            "model_type": "NN",
+            "task": "sint",
+            "use_only_target": false,
+            "concat": false
+        },
+        "train_maes": [
+            0.2893967098274896
+        ],
+        "test_maes": [
+            123.2695083618164
+        ],
+        "val_maes": [
+            151.4021759033203
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "matscibert",
+            "model_type": "GNN",
+            "task": "sint",
+            "use_only_target": false
+        },
+        "train_maes": [
+            0.39863638643762167
+        ],
+        "test_maes": [
+            142.12007814016403
+        ],
+        "val_maes": [
+            153.3227976112168
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "matscibert",
+            "model_type": "NN",
+            "task": "sint",
+            "use_only_target": false,
+            "concat": false
+        },
+        "train_maes": [
+            0.5169052686109099
+        ],
+        "test_maes": [
+            177.48907470703125
+        ],
+        "val_maes": [
+            173.5109100341797
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "matminer",
+            "model_type": "GNN",
+            "task": "sint",
+            "use_only_target": false
+        },
+        "train_maes": [
+            0.39209203714615526
+        ],
+        "test_maes": [
+            141.62415684291295
+        ],
+        "val_maes": [
+            146.237740345693
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "matminer",
+            "model_type": "NN",
+            "task": "sint",
+            "use_only_target": false,
+            "concat": false
+        },
+        "train_maes": [
+            0.480487891218879
+        ],
+        "test_maes": [
+            163.52120971679688
+        ],
+        "val_maes": [
+            153.49754333496094
+        ]
+    }
+]

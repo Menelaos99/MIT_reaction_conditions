@@ -1,0 +1,20 @@
+[
+    {
+        "params": {
+            "featurisation": "composition",
+            "model_type": "NN",
+            "task": "sint",
+            "use_only_target": true,
+            "concat": false
+        },
+        "train_maes": [
+            0.6999481671405603
+        ],
+        "test_maes": [
+            204.69554138183594
+        ],
+        "val_maes": [
+            173.61952209472656
+        ]
+    }
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "params": {
+            "featurisation": "composition",
+            "model_type": "GNN",
+            "task": "sint",
+            "use_only_target": false
+        },
+        "train_maes": [
+            0.3574224154313177
+        ],
+        "test_maes": [
+            131.39696416440216
+        ],
+        "val_maes": [
+            144.51063624564847
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "matscibert",
+            "model_type": "GNN",
+            "task": "sint",
+            "use_only_target": false
+        },
+        "train_maes": [
+            0.3069589038696229
+        ],
+        "test_maes": [
+            156.65360985039183
+        ],
+        "val_maes": [
+            171.29248410555982
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "matminer",
+            "model_type": "GNN",
+            "task": "sint",
+            "use_only_target": false
+        },
+        "train_maes": [
+            0.47288467342634055
+        ],
+        "test_maes": [
+            154.74261053807987
+        ],
+        "val_maes": [
+            148.27975783273965
+        ]
+    }
+]

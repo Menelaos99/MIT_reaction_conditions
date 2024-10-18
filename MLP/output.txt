@@ -1,0 +1,40 @@
+
+NN-calc-mean_pool-test_loss: 0.579575603561742
+NN-sint-mean_pool-test_loss: 0.49236819033439344
+XGB-calc-mean_pool-test_loss: 0.6120441443518312
+
+Exp-2024-08-11 15:22:02.573017
+NN-calc-mean_pool-test_loss: 0.6306869121534484
+NN-sint-mean_pool-test_loss: 0.5300509872344824
+
+Exp-2024-08-11 21:05:50.912874
+NN-calc-mean_pool-test_loss: 0.6482135190495423
+NN-sint-mean_pool-test_loss: 0.49520973746593183
+XGB-calc-mean_pool-test_loss: 0.5859450617300678
+XGB-sint-mean_pool-test_loss: 0.4752048069371587
+NN-calc-concat-test_loss: 0.6539061495235988
+NN-sint-concat-test_loss: 0.5683745833543631
+
+Exp-2024-08-12 11:34:08.800291
+NN-calc-mean_pool-test_loss: 0.6386134677699634
+NN-sint-mean_pool-test_loss: 0.5063386536561526
+XGB-calc-mean_pool-test_loss: 0.5859450626019921
+XGB-sint-mean_pool-test_loss: 0.4752048069371587
+NN-calc-concat-test_loss: 0.667902943279062
+NN-sint-concat-test_loss: 0.564120413019107
+XGB-calc-concat-test_loss: 0.5839108151451513
+XGB-sint-concat-test_loss: 0.5238737969118207
+
+Exp-2024-08-12 13:37:24.116905
+NN-calc-mean_pool-test_loss: 171.54564585004533
+NN-sint-mean_pool-test_loss: 175.7447911776029
+
+Exp-2024-08-12 13:42:11.046656
+NN-calc-mean_pool-test_loss: 171.61741610935755
+NN-sint-mean_pool-test_loss: 171.64468266413763
+XGB-calc-mean_pool-test_loss: 205.26316833496094
+XGB-sint-mean_pool-test_loss: 166.23976135253906
+NN-calc-concat-test_loss: 190.79807145254952
+NN-sint-concat-test_loss: 169.80968504685623
+XGB-calc-concat-test_loss: 163.65518188476562
+XGB-sint-concat-test_loss: 177.19021606445312

@@ -1,0 +1,61 @@
+[I 2024-08-27 17:17:30,519] A new study created in RDB with name: {'featurisation': 'matscibert', 'model_type': 'NN', 'task': 'sint', 'use_only_target': False, 'concat': True}_split=0
+[W 2024-08-27 17:17:30,540] Trial 0 failed with parameters: {} because of the following error: AttributeError("'TensorDataset' object has no attribute 'numpy'").
+Traceback (most recent call last):
+  File "/home/students/.conda/envs/synthesis/lib/python3.9/site-packages/optuna/study/_optimize.py", line 196, in _run_trial
+    value_or_values = func(trial)
+  File "/home/students/code/MLP/Menelaos/reaction_conditions/MLP/./hyperparams.py", line 90, in wrapped_objective
+    return pt_objective(trial, datasets_x, use_graph, use_test=False, device=DEVICE)
+  File "/home/students/code/MLP/Menelaos/reaction_conditions/MLP/utils/train.py", line 131, in pt_objective
+    scaler.fit(train_dataset.numpy())
+AttributeError: 'TensorDataset' object has no attribute 'numpy'
+[W 2024-08-27 17:17:30,540] Trial 0 failed with value None.
+Configuartion: {'featurisation': 'matscibert', 'model_type': 'NN', 'task': 'sint', 'use_only_target': False, 'concat': True}
+Loaded /home/students/code/MLP/Menelaos/reaction_conditions/dataprocessing_MTE/dataset_v3/train0.csv
+X.shape torch.Size([9970, 9984])
+Loaded /home/students/code/MLP/Menelaos/reaction_conditions/dataprocessing_MTE/dataset_v3/train1.csv
+X.shape torch.Size([9970, 9984])
+Loaded /home/students/code/MLP/Menelaos/reaction_conditions/dataprocessing_MTE/dataset_v3/train2.csv
+X.shape torch.Size([9971, 9984])
+Loaded /home/students/code/MLP/Menelaos/reaction_conditions/dataprocessing_MTE/dataset_v3/train3.csv
+X.shape torch.Size([9971, 9984])
+Loaded /home/students/code/MLP/Menelaos/reaction_conditions/dataprocessing_MTE/dataset_v3/train4.csv
+X.shape torch.Size([9971, 9984])
+Loaded /home/students/code/MLP/Menelaos/reaction_conditions/dataprocessing_MTE/dataset_v3/test0.csv
+X.shape torch.Size([2933, 9984])
+Loaded /home/students/code/MLP/Menelaos/reaction_conditions/dataprocessing_MTE/dataset_v3/test1.csv
+X.shape torch.Size([2933, 9984])
+Loaded /home/students/code/MLP/Menelaos/reaction_conditions/dataprocessing_MTE/dataset_v3/test2.csv
+X.shape torch.Size([2932, 9984])
+Loaded /home/students/code/MLP/Menelaos/reaction_conditions/dataprocessing_MTE/dataset_v3/test3.csv
+X.shape torch.Size([2932, 9984])
+Loaded /home/students/code/MLP/Menelaos/reaction_conditions/dataprocessing_MTE/dataset_v3/test4.csv
+X.shape torch.Size([2932, 9984])
+Loaded /home/students/code/MLP/Menelaos/reaction_conditions/dataprocessing_MTE/dataset_v3/val0.csv
+X.shape torch.Size([1759, 9984])
+Loaded /home/students/code/MLP/Menelaos/reaction_conditions/dataprocessing_MTE/dataset_v3/val1.csv
+X.shape torch.Size([1759, 9984])
+Loaded /home/students/code/MLP/Menelaos/reaction_conditions/dataprocessing_MTE/dataset_v3/val2.csv
+X.shape torch.Size([1759, 9984])
+Loaded /home/students/code/MLP/Menelaos/reaction_conditions/dataprocessing_MTE/dataset_v3/val3.csv
+X.shape torch.Size([1759, 9984])
+Loaded /home/students/code/MLP/Menelaos/reaction_conditions/dataprocessing_MTE/dataset_v3/val4.csv
+X.shape torch.Size([1759, 9984])
+split0
+Traceback (most recent call last):
+  File "/home/students/code/MLP/Menelaos/reaction_conditions/MLP/./hyperparams.py", line 92, in <module>
+    study.optimize(wrapped_objective, n_trials=1)
+  File "/home/students/.conda/envs/synthesis/lib/python3.9/site-packages/optuna/study/study.py", line 451, in optimize
+    _optimize(
+  File "/home/students/.conda/envs/synthesis/lib/python3.9/site-packages/optuna/study/_optimize.py", line 62, in _optimize
+    _optimize_sequential(
+  File "/home/students/.conda/envs/synthesis/lib/python3.9/site-packages/optuna/study/_optimize.py", line 159, in _optimize_sequential
+    frozen_trial = _run_trial(study, func, catch)
+  File "/home/students/.conda/envs/synthesis/lib/python3.9/site-packages/optuna/study/_optimize.py", line 247, in _run_trial
+    raise func_err
+  File "/home/students/.conda/envs/synthesis/lib/python3.9/site-packages/optuna/study/_optimize.py", line 196, in _run_trial
+    value_or_values = func(trial)
+  File "/home/students/code/MLP/Menelaos/reaction_conditions/MLP/./hyperparams.py", line 90, in wrapped_objective
+    return pt_objective(trial, datasets_x, use_graph, use_test=False, device=DEVICE)
+  File "/home/students/code/MLP/Menelaos/reaction_conditions/MLP/utils/train.py", line 131, in pt_objective
+    scaler.fit(train_dataset.numpy())
+AttributeError: 'TensorDataset' object has no attribute 'numpy'

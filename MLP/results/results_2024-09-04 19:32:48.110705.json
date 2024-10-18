@@ -1,0 +1,92 @@
+[
+    {
+        "params": {
+            "featurisation": "mtencoder_512",
+            "model_type": "NN",
+            "task": "sint",
+            "use_only_target": false,
+            "concat": false
+        },
+        "train_maes": [
+            0.2727146230138426
+        ],
+        "test_maes": [
+            114.19203186035156
+        ],
+        "val_maes": [
+            113.17576599121094
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "mtencoder_256",
+            "model_type": "NN",
+            "task": "sint",
+            "use_only_target": false,
+            "concat": false
+        },
+        "train_maes": [
+            0.2592491625696855
+        ],
+        "test_maes": [
+            111.74343872070312
+        ],
+        "val_maes": [
+            113.05230712890625
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "composition",
+            "model_type": "NN",
+            "task": "sint",
+            "use_only_target": false,
+            "concat": false
+        },
+        "train_maes": [
+            0.2696459169768384
+        ],
+        "test_maes": [
+            111.15766906738281
+        ],
+        "val_maes": [
+            114.92080688476562
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "matscibert",
+            "model_type": "NN",
+            "task": "sint",
+            "use_only_target": false,
+            "concat": false
+        },
+        "train_maes": [
+            0.5663721865754433
+        ],
+        "test_maes": [
+            165.47052001953125
+        ],
+        "val_maes": [
+            169.2574462890625
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "matminer",
+            "model_type": "NN",
+            "task": "sint",
+            "use_only_target": false,
+            "concat": false
+        },
+        "train_maes": [
+            0.3310984582925329
+        ],
+        "test_maes": [
+            123.60487365722656
+        ],
+        "val_maes": [
+            123.57337188720703
+        ]
+    }
+]

@@ -1,0 +1,87 @@
+[
+    {
+        "params": {
+            "featurisation": "mtencoder_512",
+            "model_type": "GNN",
+            "task": "sint",
+            "use_only_target": false
+        },
+        "train_maes": [
+            0.20610256241183758
+        ],
+        "test_maes": [
+            109.11555247810317
+        ],
+        "val_maes": [
+            111.08966677332023
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "mtencoder_256",
+            "model_type": "GNN",
+            "task": "sint",
+            "use_only_target": false
+        },
+        "train_maes": [
+            0.25049600611487394
+        ],
+        "test_maes": [
+            108.78508835312742
+        ],
+        "val_maes": [
+            112.31255819190363
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "composition",
+            "model_type": "GNN",
+            "task": "sint",
+            "use_only_target": false
+        },
+        "train_maes": [
+            0.20961334635482037
+        ],
+        "test_maes": [
+            102.16427835973893
+        ],
+        "val_maes": [
+            106.59795908799576
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "matscibert",
+            "model_type": "GNN",
+            "task": "sint",
+            "use_only_target": false
+        },
+        "train_maes": [
+            0.24107707206221143
+        ],
+        "test_maes": [
+            145.80375479941043
+        ],
+        "val_maes": [
+            146.74737163409438
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "matminer",
+            "model_type": "GNN",
+            "task": "sint",
+            "use_only_target": false
+        },
+        "train_maes": [
+            0.3897798127949467
+        ],
+        "test_maes": [
+            134.60629226968896
+        ],
+        "val_maes": [
+            135.44156326072803
+        ]
+    }
+]

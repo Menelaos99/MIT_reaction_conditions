@@ -1,0 +1,37 @@
+[
+    {
+        "params": {
+            "featurisation": "mtencoder_pretrain",
+            "model_type": "GNN",
+            "task": "sint",
+            "use_only_target": false
+        },
+        "train_maes": [
+            0.3583204283726544
+        ],
+        "test_maes": [
+            127.15770775457347
+        ],
+        "val_maes": [
+            131.70463664791126
+        ]
+    },
+    {
+        "params": {
+            "featurisation": "mtencoder_pretrain",
+            "model_type": "NN",
+            "task": "sint",
+            "use_only_target": false,
+            "concat": false
+        },
+        "train_maes": [
+            0.37124952743219775
+        ],
+        "test_maes": [
+            132.31539916992188
+        ],
+        "val_maes": [
+            128.4588165283203
+        ]
+    }
+]
