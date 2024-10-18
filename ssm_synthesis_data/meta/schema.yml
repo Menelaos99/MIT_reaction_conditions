@@ -1,0 +1,49 @@
+Payload
+└── release_date: str
+└── reactions: List[ReactionEntry]
+     └── ReactionEntry
+         └── doi: str
+         └── paragraph_string: str
+         └── synthesis_type: str
+         └── reaction_string: str
+         └── reaction: Formula
+         │    └── left_side: List[FormulaPart]
+         │    │    └── amount: str
+         │    │    └── material: str
+         │    └── right_side: List[FormulaPart]
+         │    │    └── amount: str
+         │    │    └── material: str
+         │    └── element_substitution: Dict[str, str]
+         └── targets_string: List[str]
+         └── target: Material
+         │    └── material_string: str
+         │    └── material_formula: str
+         │    └── material_name: str
+         │    └── phase: Optional[str]
+         │    └── is_acronym: bool
+         │    └── composition: List[Composition]
+         │    │    └── formula: str
+         │    │    └── amount: str
+         │    │    └── elements: Dict[str, str]
+         │    └── amount_vars: Dict[str, List[str]]
+         │    └── element_vars: Dict[str, List[str]]
+         │    └── additives: List[str]
+         │    └── oxygen_deficiency: Optional[str]
+         └── precursors: List[Material]
+         └── operations: List[Operation]
+              └── type: str
+              └── token: str
+              └── conditions: OperationConditions
+                   └── heating_temperature: Optional[List[OperationValue]]
+                   │    └── min_value: float
+                   │    └── max_value: float
+                   │    └── values: List[float]
+                   │    └── units: str
+                   └── heating_time: Optional[List[OperationValue]]
+                   │    └── min_value: float
+                   │    └── max_value: float
+                   │    └── values: List[float]
+                   │    └── units: str
+                   └── heating_atmosphere: Optional[str]
+                   └── mixing_device: Optional[str]
+                   └── mixing_media: Optional[str]

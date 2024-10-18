@@ -1,0 +1,80 @@
+Payload
+└── release_date: "YYYY-MM-DD"
+└── reactions: List[ReactionEntry]
+     └── ReactionEntry
+         └── doi: "10.1149/1.1383553"
+         └── paragraph_string: "High surface area activated carbons were obtained  <...> ce of these materials will be published elsewhere."
+         └── synthesis_type: "solid-state"
+         └── reaction_string: "2 Li2CO3 + 5 TiO2 == 1 Li4Ti5O12 + 2 CO2"
+         └── reaction:
+             └── left_side:
+                 └── amount: "5"
+                 └── material: "TiO2"
+             └── right_side:
+                 └── amount: "1"
+                 └── material: "Li4Ti5O12"
+                 └── amount: "2"
+                 └── material: "CO2"
+             └── element_substitution: {}
+         └── targets_string:
+             └── "Li4Ti5O12"
+         └── target:
+             └── material_string: "Li4Ti5O12"
+             └── material_formula: "Li4Ti5O12"
+             └── material_name: ""
+             └── phase: None
+             └── is_acronym: False
+             └── composition:
+                 └── formula: "Li4Ti5O12"
+                 └── amount: "1"
+                 └── elements:
+                     └── "Li": "4"
+                     └── "Ti": "5"
+                     └── "O": "12"
+             └── amount_vars: {}
+             └── element_vars: {}
+             └── additives: []
+             └── oxygen_deficiency: None
+         └── precursors:
+             └── Material
+                 └── material_string: "TiO2"
+                 └── material_formula: "TiO2"
+                 └── material_name: ""
+                 └── phase: None
+                 └── is_acronym: False
+                 └── composition:
+                     └── formula: "TiO2"
+                     └── amount: "1"
+                     └── elements:
+                         └── "Ti": "1"
+                         └── "O": "2"
+                 └── amount_vars: {}
+                 └── element_vars: {}
+                 └── additives: []
+                 └── oxygen_deficiency: None
+             └── Material
+                 └── material_string: "Li2CO3"
+                 └── material_formula: "Li2CO3"
+                 └── material_name: ""
+                 └── phase: None
+                 └── is_acronym: False
+                 └── composition:
+                     └── formula: "Li2CO3"
+                     └── amount: "1"
+                     └── elements:
+                         └── "Li": "2"
+                         └── "C": "1"
+                         └── "O": "3"
+                 └── amount_vars: {}
+                 └── element_vars: {}
+                 └── additives: []
+                 └── oxygen_deficiency: None
+         └── operations:
+             └── type: "StartingSynthesis"
+             └── token: "fabricated"
+             └── conditions:
+                 └── heating_temperature: None
+                 └── heating_time: None
+                 └── heating_atmosphere: None
+                 └── mixing_device: None
+                 └── mixing_media: None

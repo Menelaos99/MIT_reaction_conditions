@@ -1,0 +1,825 @@
+(research) (base) kesava89@LEGION-L5-Linux:~/MIT Project/Repos/ssm-synthesis-data-processing$  cd /home/kesava89/MIT\ Project/Repos/ssm-synthesis-data-processing ; /usr/bin/env /home/kesava89/miniconda3/envs/research/bin/python /home/kesava89/.vscode/extensions/ms-python.debugpy-2024.6.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 56887 -- /home/kesava89/MIT\ Project/Repos/ssm-synthesis-data-processing/grapher_neo4j.py 
+/home/kesava89/MIT Project/Repos/ssm-synthesis-data-processing/grapher_neo4j.py:15: DeprecationWarning: write_transaction has been renamed to execute_write
+  session.write_transaction(self._create_and_link_nodes, data)
+Transaction failed and will be retried in 0.9705606789702446s (Couldn't connect to neo4j.de.soanpapdi.cloud:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv4Address(('130.61.43.67', 7687)) (reason [Errno 113] No route to host))
+Transaction failed and will be retried in 1.9825549775183697s (Couldn't connect to neo4j.de.soanpapdi.cloud:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv4Address(('130.61.43.67', 7687)) (reason [Errno 113] No route to host))
+Transaction failed and will be retried in 3.8103574364686716s (Couldn't connect to neo4j.de.soanpapdi.cloud:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv4Address(('130.61.43.67', 7687)) (reason [Errno 113] No route to host))
+Transaction failed and will be retried in 7.460815335460701s (Couldn't connect to neo4j.de.soanpapdi.cloud:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv4Address(('130.61.43.67', 7687)) (reason [Errno 113] No route to host))
+Transaction failed and will be retried in 14.957256669208645s (Couldn't connect to neo4j.de.soanpapdi.cloud:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv4Address(('130.61.43.67', 7687)) (reason [Errno 113] No route to host))
+Transaction failed and will be retried in 28.893207157001456s (Couldn't connect to neo4j.de.soanpapdi.cloud:7687 (resolved to ()):
+Failed to establish connection to ResolvedIPv4Address(('130.61.43.67', 7687)) (reason [Errno 113] No route to host))
+(research) (base) kesava89@LEGION-L5-Linux:~/MIT Project/Repos/ssm-synthesis-data-processing$ ^C
+
+(research) (base) kesava89@LEGION-L5-Linux:~/MIT Project/Repos/ssm-synthesis-data-processing$  cd /home/kesava89/MIT\ Project/Repos/ssm-synthesis-data-processing ; /usr/bin/env /home/kesava89/miniconda3/envs/research/bin/python /home/kesava89/.vscode/extensions/ms-python.debugpy-2024.6.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 53609 -- /home/kesava89/MIT\ Project/Repos/ssm-synthesis-data-processing/grapher_neo4j.py 
+Creating graph for item:  Li4Ti5O12
+/home/kesava89/MIT Project/Repos/ssm-synthesis-data-processing/grapher_neo4j.py:15: DeprecationWarning: write_transaction has been renamed to execute_write
+  session.write_transaction(self._create_and_link_nodes, data)
+Backend qtagg is interactive backend. Turning interactive mode on.
+(research) (base) kesava89@LEGION-L5-Linux:~/MIT Project/Repos/ssm-synthesis-data-processing$ ^C
+
+(research) (base) kesava89@LEGION-L5-Linux:~/MIT Project/Repos/ssm-synthesis-data-processing$  cd /home/kesava89/MIT\ Project/Repos/ssm-synthesis-data-processing ; /usr/bin/env /home/kesava89/miniconda3/envs/research/bin/python /home/kesava89/.vscode/extensions/ms-python.debugpy-2024.6.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 50123 -- /home/kesava89/MIT\ Project/Repos/ssm-synthesis-data-processing/grapher_neo4j.py 
+Creating graph for item:  Li4Ti5O12
+/home/kesava89/MIT Project/Repos/ssm-synthesis-data-processing/grapher_neo4j.py:15: DeprecationWarning: write_transaction has been renamed to execute_write
+  session.write_transaction(self._create_and_link_nodes, data)
+Creating graph for item:  PNb9O25
+Creating graph for item:  LiFexMn2-xO4
+Creating graph for item:  LiNi0.95Ti0.05O2
+Creating graph for item:  Y0.9Ca0.1FeO3
+Creating graph for item:  LiAlO2
+Creating graph for item:  Nd1-xSrxCoO3-δ
+Creating graph for item:  Pr0.6Sr0.4CoO3-δ
+Creating graph for item:  Gd0.6Sr0.4CoO3-δ
+Creating graph for item:  Li4Ti5O12
+Creating graph for item:  LiMn2O4
+Creating graph for item:  Y0.95-xLaxVO4:5%Eu3+
+Creating graph for item:  Y0.95VO4:5%Eu3+
+Creating graph for item:  Lithium titanium oxide
+Creating graph for item:  Li4Ti5O12
+Creating graph for item:  LiMn2O4
+Creating graph for item:  LiNi0.5Mn1.5O4(
+Creating graph for item:  Ternary orthophosphate [Sr3Sm(PO4)3]
+Creating graph for item:  Li[Ni1∕3Mn1∕3Co1∕3-zAlz]O2
+Creating graph for item:  Ba2-xMg(BO3)2:xEu2+
+Creating graph for item:  Ba1.95Mg(BO3)2:0.05Eu2+
+Creating graph for item:  Li4Ti5O12
+Creating graph for item:  Ba1.6Ca0.4P2O7:Eu2+
+Creating graph for item:  Li2FeSiO4
+Creating graph for item:  Na2Ti3O7
+Creating graph for item:  K2Ti4O9
+Creating graph for item:  Cs2Ti5O11
+Creating graph for item:  Na4Ti5O12
+Creating graph for item:  Li1.2Ni0.16Mn0.56Co0.08-yAlyO2
+Creating graph for item:  Cu3Mo6S8
+Creating graph for item:  Li0.59MnO2
+Creating graph for item:  Li0.77MnO2
+Creating graph for item:  Li0.82MnO2
+Creating graph for item:  Ba0.98La0.02SnO3
+Creating graph for item:  Ce0.6Mn0.3Fe0.1O2-δ
+Creating graph for item:  YFeO3
+Creating graph for item:  BaSi2O2N2:Eu2+
+Creating graph for item:  Ba1-xEuxSi2O2N2
+Creating graph for item:  SnNb2O6
+Creating graph for item:  SrTiO3
+Creating graph for item:  Strontium titanate
+Creating graph for item:  SrTi0.99Rh0.01O3-δ
+Creating graph for item:  SrTiO3
+Creating graph for item:  CaBiO2Cl
+Creating graph for item:  ZnFe2O4
+Creating graph for item:  Cu2O-M2O5
+Creating graph for item:  Cu2Nb8O21
+Creating graph for item:  Bi2SrNa2Nb4O15
+Creating graph for item:  Cd4YbO(BO3)3
+Creating graph for item:  Li2MnO3
+Creating graph for item:  LiNi1/3Co1/3Mn1/3O2
+Creating graph for item:  Li4Ti5O12
+Creating graph for item:  Na0.54Mn0.50Ti0.51O2
+Creating graph for item:  LiNiyCo1-y-zAlzO2
+Creating graph for item:  0.3Li2MnO3·0.7LiNi0.5Mn0.5O2
+Creating graph for item:  (La0.8Sr0.2)0.95MnO3-δ
+Creating graph for item:  SrAl12O19
+Creating graph for item:  Sr4Al14O25
+Creating graph for item:  SrAl2O4
+Creating graph for item:  BaFe12O19
+Creating graph for item:  K4Nb6O17
+Creating graph for item:  KLaNb2O7
+Creating graph for item:  RbCa2Ta3O10
+Creating graph for item:  LiTaO3
+Creating graph for item:  NaTaO3
+Creating graph for item:  KTaO3
+Creating graph for item:  K2La2Ti3O10
+Creating graph for item:  CuCl
+Creating graph for item:  NaMnO2
+Creating graph for item:  Zn2SnO4
+Creating graph for item:  NaTaO3
+Creating graph for item:  Zinc molybdate
+Creating graph for item:  h-Li6Zr2O7
+Creating graph for item:  ZnGa2O4
+Creating graph for item:  (La0.6Sr0.4)(Co0.2Fe0.8)O3
+Creating graph for item:  Li2ZrO3
+Creating graph for item:  m-Li6Zr2O7
+Creating graph for item:  CoMn2O4
+Creating graph for item:  CuFe2O4
+Creating graph for item:  LiMn2O4
+Creating graph for item:  Na3V2O2x(PO4)2F3-2x
+Creating graph for item:  Li5AlO4
+Creating graph for item:  ZnGa2O4
+Creating graph for item:  Li2FeSiO4/C
+Creating graph for item:  NiO-Fe2O3
+Creating graph for item:  Ba0.6La0.4CoO3
+Creating graph for item:  Na4Ti5O12
+Creating graph for item:  NaTiO2
+Creating graph for item:  NdBaMn2O6-δ
+Creating graph for item:  NaV3(PO4)3
+Creating graph for item:  Na3MoO3N
+Creating graph for item:  Li(Li1/3-2x/3MxMn2/3-x/3)O2
+Creating graph for item:  Li(Li1/3-2x/3MxMn2/3-x/3)O2
+Creating graph for item:  Li0.88(Li0.18Co0.33Mn0.49)O2
+Creating graph for item:  Li(Li0.15Ni0.25Mn0.6)O2
+Creating graph for item:  0.3Li2MnO3·0.7LiNi0.5Mn0.5O2
+Creating graph for item:  strontium titanate
+Creating graph for item:  Mg2GeSe4
+Creating graph for item:  Zn2GeO4
+Creating graph for item:  TiNbO5
+Creating graph for item:  Ti5NbO14
+Creating graph for item:  Ca2Nb3O10
+Creating graph for item:  LiFeP2O7
+Creating graph for item:  Ca2Nb3O10
+Creating graph for item:  Ca3(PO4)2
+Creating graph for item:  Ca2.86Mg0.14(PO4)2
+Creating graph for item:  α-BiSeO3Cl
+Creating graph for item:  Na6Te4W6O29
+Creating graph for item:  Li0.99NiO2
+Creating graph for item:  R8Ba5Ni4O21
+Creating graph for item:  Ba7Nb4MoO20
+Creating graph for item:  CsBa2Ta3O10
+Creating graph for item:  ZrW2O8
+Creating graph for item:  Bi17V3O33
+Creating graph for item:  NdAlO3Al2O3
+Creating graph for item:  NaLaTiO4
+Creating graph for item:  Na4M3(PO4)2(P2O7)
+Creating graph for item:  Na4M3(PO4)2(P2O7)
+Creating graph for item:  SrFe2(PO4)2
+Creating graph for item:  La0.75Sr0.25Cr0.5Fe0.5O3-d
+Creating graph for item:  Sr3Fe2O7-d
+Creating graph for item:  Li2MnO3
+Creating graph for item:  Ca9Fe(PO4)7
+Creating graph for item:  Bi2ANaNb3O12
+Creating graph for item:  Bi2ANaNb3O12
+Creating graph for item:  Bi2SrNaNb3O12
+Creating graph for item:  Bi2CaNaNb3O12
+Creating graph for item:  Li2SrSiO4:Eu2+
+Creating graph for item:  LixMn3-xO4
+Creating graph for item:  LiCoO2
+Creating graph for item:  Li0.5TiO2
+Creating graph for item:  KMnVO4
+Creating graph for item:  Li2MnO3
+Creating graph for item:  Li1.06Mn2O4
+Creating graph for item:  Ca2Nb3O10
+Creating graph for item:  BaYMn2O5+δ
+Creating graph for item:  (La1-xSrx)2CuO4+δ
+Creating graph for item:  (Nd1-xCex)2CuO4+δ
+Creating graph for item:  Cu2ZnGeS4
+Creating graph for item:  Ag2ZnGeS4
+Creating graph for item:  Ag9FeS4Te2
+Creating graph for item:  Ag9FeS4.1Te1.9
+Creating graph for item:  LaCu0.5Mn0.5O3
+Creating graph for item:  LiFePO4
+Creating graph for item:  LiFePO4
+Creating graph for item:  Bi2Ti2O7
+Creating graph for item:  LiMn2-yMyO4
+Creating graph for item:  LiMn2-yMyO4
+Creating graph for item:  LiMn2-yMyO4
+Creating graph for item:  LiMn2-yMyO4
+Creating graph for item:  LiMn2-yMyO4
+Creating graph for item:  LiMn2-y-zMyLizO4
+Creating graph for item:  LiMn2-y-zMyLizO4
+Creating graph for item:  LiMn2-y-zMyLizO4
+Creating graph for item:  LiMn2-y-zMyLizO4
+Creating graph for item:  LiMn2-y-zMyLizO4
+Creating graph for item:  Mn3Fe4(VO4)6
+Creating graph for item:  (Y0.9Ca0.1)BaCo2O5.5
+Creating graph for item:  YCa10
+Creating graph for item:  Y(Ba0.9Ca0.1)Co2O5.5
+Creating graph for item:  BaCa10
+Creating graph for item:  P2-Na1/2VO2
+Creating graph for item:  NaVO3
+Creating graph for item:  Zirconium phosphate
+Creating graph for item:  Ba3Ge2B6O16
+Creating graph for item:  (GaN)1-x(ZnO)x
+Creating graph for item:  Sr5(PO4)3Cl:Eu2+
+Creating graph for item:  Li2MnO3
+Creating graph for item:  Li1.2Ni0.2Mn0.6O2
+Creating graph for item:  MnMO3
+Creating graph for item:  MnMO3
+Creating graph for item:  MnTiO3
+Creating graph for item:  MnSnO3
+Creating graph for item:  VSb(SeO3)4
+Creating graph for item:  Mg0.268Al2.577O3.733N0.267
+Creating graph for item:  Fe2TiO5
+Creating graph for item:  PbZnO3
+Creating graph for item:  ALaNb2O7
+Creating graph for item:  ALaNb2O7
+Creating graph for item:  ALaNb2O7
+Creating graph for item:  RbCa2Nb3O10
+Creating graph for item:  LiLaNb2O7
+Creating graph for item:  NaLaNb2O7
+Creating graph for item:  CaAl2O4
+Creating graph for item:  Ca3Al2O6
+Creating graph for item:  K3V5O14)
+Creating graph for item:  (KV3O8
+Creating graph for item:  CsV3O8
+Creating graph for item:  Cs2V4O11
+Creating graph for item:  Ca2Nam-3NbmO3m+1
+Creating graph for item:  CuGaS2
+Creating graph for item:  CuInS2
+Creating graph for item:  Cu2ZnSnS4
+Creating graph for item:  potassium manganese oxide K0.45MnO2
+Creating graph for item:  Y2Sn2O7
+Creating graph for item:  titanium oxide Cs0.67Ti1.83O4
+Creating graph for item:  La-Ga oxide LaGaO3
+Creating graph for item:  LaGaS2O
+Creating graph for item:  La3GaS5O
+Creating graph for item:  K0.8Fe0.8Ti1.2O4
+Creating graph for item:  Cs0.7Ti1.825O4
+Creating graph for item:  6Li3Fe3(PO4)3
+Creating graph for item:  YAl1-xMxO3
+Creating graph for item:  YAl1-xMxO3
+Creating graph for item:  YAl1-xMxO3
+Creating graph for item:  YAl1-xMxO3
+Creating graph for item:  YB1-xMxO3
+Creating graph for item:  YB1-xMxO3
+Creating graph for item:  YB1-xMxO3
+Creating graph for item:  YB1-xMxO3
+Creating graph for item:  YMnO3
+Creating graph for item:  Na2SiO3
+Creating graph for item:  LiFePO4
+Creating graph for item:  SrCo0.8Fe0.2O3-δ
+Creating graph for item:  NaTaO3
+Creating graph for item:  Mn2Sb3O6Cl
+Creating graph for item:  LaMnO3+δ
+Creating graph for item:  LaFeO3
+Creating graph for item:  LaCoO3
+Creating graph for item:  LaCrO3
+Creating graph for item:  LaNiO3-δ
+Creating graph for item:  La9.33(SiO4)6O2
+Creating graph for item:  SrTiO3
+Creating graph for item:  Sr1-xCaxBi2Nb2O9
+Creating graph for item:  Li4Ti5O12
+Creating graph for item:  Li3VO4
+Creating graph for item:  ThMo2O8
+Creating graph for item:  Sm0.5Sr0.5CoO3
+Creating graph for item:  MgFe1.98O4
+Creating graph for item:  Mg1-xCuxFe1.98O4
+Creating graph for item:  NiFe2O4
+Creating graph for item:  La0.6Sr0.4Fe0.85Pd0.05Mn0.1O3
+Creating graph for item:  LiVMoO6
+Creating graph for item:  Sr2YSbO6
+Creating graph for item:  Cu1-xZnxO
+Creating graph for item:  LiMn2O4
+Creating graph for item:  Li1.15Co0.32Mn1.53O4
+Creating graph for item:  Li2FeSiO4/C
+Creating graph for item:  (Y0.95Tb0.05)2Zr2O7
+Creating graph for item:  Li3V2(PO4)3
+Creating graph for item:  MEu(WO4)2
+Creating graph for item:  MEu(WO4)2
+Creating graph for item:  MEu(WO4)2
+Creating graph for item:  barium ferrite Ba0.75-xCaxLa0.25Fe11.6Co0.25Ti0.15O19
+Creating graph for item:  LiMn2O4
+Creating graph for item:  Sr3Co2Fe24O41
+Creating graph for item:  Ca3Co2O6
+Creating graph for item:  Zn3Ga2Ge2O10:0.5Cr3+
+Creating graph for item:  Bi12TiO20
+Creating graph for item:  Ca3Sc2Si3O12:Ce3+
+Creating graph for item:  Mg2Si
+Creating graph for item:  Li1.2Ni0.2Mn0.6O2
+Creating graph for item:  LiNi0.5Mn1.5O4
+Creating graph for item:  Y2GaSbO7
+Creating graph for item:  Y2YbSbO7
+Creating graph for item:  Bi2InTaO7
+Creating graph for item:  BiFeO3
+Creating graph for item:  LiFePO4/C
+Creating graph for item:  K2Fe22O34
+Creating graph for item:  KFeO2
+Creating graph for item:  Mg2SiO4
+Creating graph for item:  Mg2Al4Si5O18
+Creating graph for item:  Li3VO4
+Creating graph for item:  LiV3O8
+Creating graph for item:  SrTiO3
+Creating graph for item:  Sr1-xCexCo0.2Fe0.8O3-δ
+Creating graph for item:  La0.6Sr0.4Co0.2Fe0.8O3-δ
+Creating graph for item:  SrFeO2
+Creating graph for item:  Li1.2Ni0.13Co0.13Mn0.54O2
+Creating graph for item:  LiCoO2
+Creating graph for item:  α-NaFeO2
+Creating graph for item:  0.3Li2MnO3·0.7LiNi0.5Mn0.5O2
+Creating graph for item:  (La0.6Sr0.4)(Co0.2Fe0.8)O3
+Creating graph for item:  Strontium titanate
+Creating graph for item:  SrTi0.99Rh0.01O3-δ
+Creating graph for item:  SrTiO3
+Creating graph for item:  Zn2GeO4
+Creating graph for item:  BaFe12O19
+Creating graph for item:  Li5AlO4
+Creating graph for item:  YBaCo2Ox
+Creating graph for item:  Mg2TiO4
+Creating graph for item:  Li2MgTiO4
+Creating graph for item:  Sr2FeSbO6
+Creating graph for item:  Li2MnO3
+Creating graph for item:  ZnGa2O4
+Creating graph for item:  KCa2Nb3O10
+Creating graph for item:  YFeO3
+Creating graph for item:  Sr2-xNaxMgSi2O7-0.5x
+Creating graph for item:  LiMoVO6
+Creating graph for item:  Li2FeSiO4/C
+Creating graph for item:  Na4Ti5O12
+Creating graph for item:  NaTiO2
+Creating graph for item:  ZnFe2O4
+Creating graph for item:  Na2-xV3P2O13
+Creating graph for item:  ZnGa2O4
+Creating graph for item:  Na3MoO3N
+Creating graph for item:  Li4Ti5O12
+Creating graph for item:  SrTiO3
+Creating graph for item:  Cu2O-M2O5
+Creating graph for item:  Cu2Nb8O21
+Creating graph for item:  h-Li6Zr2O7
+Creating graph for item:  LiH2PO4
+Creating graph for item:  LiFePO4
+Creating graph for item:  Li2ZrO3
+Creating graph for item:  m-Li6Zr2O7
+Creating graph for item:  Mg2GeSe4
+Creating graph for item:  SnNb2O6
+Creating graph for item:  TiNbO5
+Creating graph for item:  Ti5NbO14
+Creating graph for item:  LixMn3-xO4
+Creating graph for item:  SrTiO3
+Creating graph for item:  LiMn2O4
+Creating graph for item:  NiO-Fe2O3
+Creating graph for item:  Ba0.6La0.4CoO3
+Creating graph for item:  (100 - x)SrB4O7-xBi2VO5.5
+Creating graph for item:  LiZr2(PO4)3
+Creating graph for item:  NdBaMn2O6-δ
+Creating graph for item:  Li2SnO3
+Creating graph for item:  0.75(Bi0.99La0.01)FeO3-0.25BaTiO3
+Creating graph for item:  0.75BiFeO3-0.25(Ba0.99La0.01)TiO3
+Creating graph for item:  BaSb2O6
+Creating graph for item:  strontium titanate
+Creating graph for item:  lithium manganese oxide
+Creating graph for item:  NaV3(PO4)3
+Creating graph for item:  SrAl12O19
+Creating graph for item:  Sr4Al14O25
+Creating graph for item:  SrAl2O4
+Creating graph for item:  Na3V2O2x(PO4)2F3-2x
+Creating graph for item:  Na0.54Mn0.50Ti0.51O2
+Creating graph for item:  CuFe2O4
+Creating graph for item:  (La0.8Sr0.2)0.95MnO3-δ
+Creating graph for item:  CaBiO2Cl
+Creating graph for item:  LiNiyCo1-y-zAlzO2
+Creating graph for item:  LiGayNi1-yO2
+Creating graph for item:  CoMn2O4
+Creating graph for item:  SnNb2O6
+Creating graph for item:  CuFe2O4
+Creating graph for item:  AgSbO3
+Creating graph for item:  Potassium tetratitanate
+Creating graph for item:  K2Ti4O9
+Creating graph for item:  potassium hexatitanate
+Creating graph for item:  K2Ti6O13
+Creating graph for item:  La0.4Ba0.6Mn0.8Mg0.2O3-δ
+Creating graph for item:  La2Mo2O9
+Creating graph for item:  BaGa2S4:Eu2+
+Creating graph for item:  Li4SiO4
+Creating graph for item:  ZnWO4
+Creating graph for item:  2ZnO-TiO2
+Creating graph for item:  Li2TiO3
+Creating graph for item:  Li3Nd3W2O12
+Creating graph for item:  La0.6Sr1.4MnO4
+Creating graph for item:  Li1+xMn2O4
+Creating graph for item:  LiMn2O4
+Creating graph for item:  Li1.06Mn2O4
+Creating graph for item:  BaZr0.4Ce0.4Y0.2O3 - δ
+Creating graph for item:  CsEuFe4As4
+Creating graph for item:  EuAs
+Creating graph for item:  YAG:Ce
+Creating graph for item:  Fe2WO6
+Creating graph for item:  CaTiSiO5
+Creating graph for item:  Ca2MSbO6
+Creating graph for item:  Ca2MSbO6
+Creating graph for item:  Ca2MnSbO6
+Creating graph for item:  Ca2FeSbO6
+Creating graph for item:  LaInO3
+Creating graph for item:  La1-xGaxInO3
+Creating graph for item:  LiLaTa2O7
+Creating graph for item:  RbLaTa2O7
+Creating graph for item:  X2-Y2SiO5:Ce
+Creating graph for item:  (Pb0.91La0.09)(Zr0.65Ti0.35)O3
+Creating graph for item:  LixTiO2
+Creating graph for item:  NaPd3Sn2
+Creating graph for item:  NaPd3Ge2
+Creating graph for item:  NaPd3Si2
+Creating graph for item:  La(1-x)SmxCrO3
+Creating graph for item:  Zn2-x-yP2O7: xCe3+
+Creating graph for item:  Ba2PrIrO6
+Creating graph for item:  Lu1-xAlxNbO4:0.18Yb,0.05Er
+Creating graph for item:  Lu1-yGayNbO4:0.18Yb,0.05Er
+Creating graph for item:  LiFeSnO4
+Creating graph for item:  LiInSnO4
+Creating graph for item:  La3MgBi5
+Creating graph for item:  LiTi2(PO4)3
+Creating graph for item:  [Rb3In(PO4)2]2
+Creating graph for item:  SrMn1- xGaxO3- δ
+Creating graph for item:  NaLaTiO4
+Creating graph for item:  Nd2Ti2O7
+Creating graph for item:  PbBiO2Br
+Creating graph for item:  Li2MoO4-ZnMoO4
+Creating graph for item:  Li7La3Zr2O12
+Creating graph for item:  uranyl niobate Cs9[(UO2)8O4(NbO5)(Nb2O8)2]
+Creating graph for item:  Cs9U8Nb5O41
+Creating graph for item:  Li7La3Hf2O12
+Creating graph for item:  Ca2.7La0.3Co4O9+ δ
+Creating graph for item:  CaMoO4
+Creating graph for item:  La3Co2SbO9
+Creating graph for item:  Zn2GeO4
+Creating graph for item:  Y0.99Dy0.01(PxV1-x)O4
+Creating graph for item:  Y0.99Dy0.01 (P0.8V0.2)O4
+Creating graph for item:  Y0.95-yTb0.05BiyPO4
+Creating graph for item:  GeP
+Creating graph for item:  LiIn1-xEuxW2O8
+Creating graph for item:  LiIn1-xDyxW2O8
+Creating graph for item:  LiIn0.965Dy0.03Eu0.005W2O8
+Creating graph for item:  LiScW2O8
+Creating graph for item:  La3Sb3Co2O14
+Creating graph for item:  3Sb3Co2O14
+Creating graph for item:  AgGaSiSe4
+Creating graph for item:  SrLa2Ni2TeO9
+Creating graph for item:  Cd2V2Te2O11(2)
+Creating graph for item:  Bi2WO6
+Creating graph for item:  CaFe5O7
+Creating graph for item:  Na2CdPO4F
+Creating graph for item:  Cobalt tungstate
+Creating graph for item:  Lithium titanium oxide
+Creating graph for item:  Lithium manganese oxide
+Creating graph for item:  barium cerate
+Creating graph for item:  BaCe0.7Gd0.2In0.1O2.85
+Creating graph for item:  Ba3MgNb2O9
+Creating graph for item:  LaAlO3
+Creating graph for item:  Sr4Al14O25
+Creating graph for item:  Y0.98-xSm0.02BixPO4
+Creating graph for item:  SrAl2O4
+Creating graph for item:  Sr12Al10.6Si3.4O32Cl5.4
+Creating graph for item:  Ca12Al10.6Si3.4O32Cl5.4
+Creating graph for item:  (Gd1-xYx)0.94Eu0.06PO4
+Creating graph for item:  PbWO4:Tb3+
+Creating graph for item:  SrAl2O4:Eu2+
+Creating graph for item:  NaCaPO4
+Creating graph for item:  Sr1-1.5xPrxZrO3
+Creating graph for item:  CuNb2O6
+Creating graph for item:  Bi2MoO6
+Creating graph for item:  Sr1-xAxCoO3-δ
+Creating graph for item:  SrCo1-yMyO3-δ
+Creating graph for item:  BiCuVOx
+Creating graph for item:  Bi2Cu0.1V0.9O5.35
+Creating graph for item:  CoFe2O4
+Creating graph for item:  NaY(WO4)2: Nd3+/Sm3+
+Creating graph for item:  CaIn2O4:xTb
+Creating graph for item:  Gd2-xEux(MoO4)3
+Creating graph for item:  Gd1.2Eu0.8(MoO4)3
+Creating graph for item:  Ho0.01Lu1.99SiO5
+Creating graph for item:  GdOCl
+Creating graph for item:  Li2MnO3
+Creating graph for item:  Lanthanum gallate LaGaO3
+Creating graph for item:  aluminate LaAlO3
+Creating graph for item:  Sodium zirconate
+Creating graph for item:  Fe2SiO4/C
+Creating graph for item:  Li2CuO2
+Creating graph for item:  ZnCr2O4
+Creating graph for item:  Sr3Ti2O7
+Creating graph for item:  SrSnO3
+Creating graph for item:  Ce0.8Sm0.2O2-δ
+Creating graph for item:  Barium phosphate
+Creating graph for item:  barium zirconate
+Creating graph for item:  BaZr0.85Y0.15O3-δ
+Creating graph for item:  SmBa0.5Sr0.5CoCuO5+δ
+Creating graph for item:  La0.6Sr0.4CoO3-δ
+Creating graph for item:  La9.83Si6-x-yAlxFeyO26±δ
+Creating graph for item:  Ba0.5Sr0.5Co0.8Fe0.1Ni0.1O3-δ
+Creating graph for item:  Ga3PO7
+Creating graph for item:  neodymium molybdate
+Creating graph for item:  BaTiO3
+Creating graph for item:  KGd(WO4)2
+Creating graph for item:  3K2CO3+(1-x)Gd2O3+xPr2O3(x
+Creating graph for item:  lanthanum gallate
+Creating graph for item:  La0.85Sr0.15Ga0.8Mg0.2O2.825
+Creating graph for item:  Ca2Nb3O10
+Creating graph for item:  ThSiO4
+Creating graph for item:  Pb2Fe2O5(s)
+Creating graph for item:  PbFe5O8.5(s)
+Creating graph for item:  Na2Ti3O7
+Creating graph for item:  NiAl2O4
+Creating graph for item:  Ce99Ga1Ox
+Creating graph for item:  Ce98Ga2Ox
+Creating graph for item:  Ce95Ga5Ox
+Creating graph for item:  Ce90Ga10Ox
+Creating graph for item:  Ce80Ga20Ox
+Creating graph for item:  La0.5Sr0.5FeO3-δ
+Creating graph for item:  Sodium zirconate
+Creating graph for item:  Li2Mn4O9
+Creating graph for item:  MnV2O6
+Creating graph for item:  SrCe1-xYxO3-δ
+Creating graph for item:  Li5FeO4
+Creating graph for item:  LiCoO2
+Creating graph for item:  Zr0.854Y0.146O1.93
+Creating graph for item:  La0.8Sr0.2Ga0.8Mg0.115Co0.05O3
+Creating graph for item:  PZT
+Creating graph for item:  Pb1.03-xYx[(Zr0.52Ti0.48)1-xNbx]O3
+Creating graph for item:  Pb1.03[(Zr0.52Ti0.48)1-yNby]O3
+Creating graph for item:  La3GaMo2O12
+Creating graph for item:  La3AlMo2O12
+Creating graph for item:  La0.5Sr0.5FeO3 - δ
+Creating graph for item:  PbBi6V2-xPxO15
+Creating graph for item:  PbBi6V2-xAsxO15
+Creating graph for item:  PbBi6P2-xAsxO15
+Creating graph for item:  Pb1-xSrxBi6V2O15
+Creating graph for item:  BaCeO3
+Creating graph for item:  Li1.3Al0.3Ti1.7(PO4)3
+Creating graph for item:  LiNiO2
+Creating graph for item:  Na2Ti6O13
+Creating graph for item:  Ce1 - xNdxO2 - 0.5x
+Creating graph for item:  Ce1 - xSmxO2 - 0.5x
+Creating graph for item:  Ce1 - 2xSmxNdxO2
+Creating graph for item:  Bi4V2 - xNbxO11
+Creating graph for item:  K0.2Ti0.8Al0.2O2
+Creating graph for item:  LiMn2O4
+Creating graph for item:  SrFe0.67Ta0.33O3 - δ
+Creating graph for item:  LiFePO4
+Creating graph for item:  BaTi0.5Sc0.5O3 - δ
+Creating graph for item:  LiCoBO3
+Creating graph for item:  Ba0.5Sr0.5(Co0.8Fe0.2)1 - xTixO3 - δ
+Creating graph for item:  Ba0.5Sr0.5Co0.8Fe0.2O3
+Creating graph for item:  Ba0.5Sr0.5(Co0.8Fe0.2)1 - xZrxO3 - δ
+Creating graph for item:  BaZr0.4Ce0.4Y0.2O3 - δ
+Creating graph for item:  Li3V2(PO4)3
+Creating graph for item:  9LiFePO4-Na3V2(PO4)3/C
+Creating graph for item:  CeO2·Pr6O11
+Creating graph for item:  LaNiO3
+Creating graph for item:  BaSn1-xTbxO3
+Creating graph for item:  YTbx 3+BO3
+Creating graph for item:  Bi3NbO7
+Creating graph for item:  LiNiVO4
+Creating graph for item:  MnAl2O4
+Creating graph for item:  MnSiO3
+Creating graph for item:  Mn2SiO4
+Creating graph for item:  Na2SeSO3
+Creating graph for item:  MgAl2O4
+Creating graph for item:  La0.2Sr1.8MnO4
+Creating graph for item:  KNb3O8
+Creating graph for item:  SrCo0.8-xFe0.2NbxO3-d
+Creating graph for item:  MgFe2O4
+Creating graph for item:  Bi2WO6
+Creating graph for item:  Bi2W2O9 oxide
+Creating graph for item:  Zn2SiO4:Mn2+
+Creating graph for item:  YAG
+Creating graph for item:  La0.42Ca0.33Tb0.25MnO3
+Creating graph for item:  Ba2LnRuO6
+Creating graph for item:  Ba2LnRuO6
+Creating graph for item:  Ba2LnRuO6
+Creating graph for item:  Ca1-xBixMn1-yV yO3-δ
+Creating graph for item:  LiCoO2
+Creating graph for item:  BaSn1-xMnxO3
+Creating graph for item:  Bi4TaO8I
+Creating graph for item:  La1/3Sr2/3MO3
+Creating graph for item:  La1/3Sr2/3MO3
+Creating graph for item:  La1/3Sr2/3MnO3
+Creating graph for item:  K4Nb6O17
+Creating graph for item:  Li2TiO3
+Creating graph for item:  SrFe1-xGaxO3-δ
+Creating graph for item:  (Ni0.8Cu0.12Zn0.12)Fe1.96O4
+Creating graph for item:  Nd5O4Cl[AsO3]2
+Creating graph for item:  AgCuF3
+Creating graph for item:  Pb(Zr0.95Ti0.05)O3
+Creating graph for item:  Bi4Ge3O12
+Creating graph for item:  Y2FeSbO7
+Creating graph for item:  In2FeSbO7
+Creating graph for item:  Bi2InTaO7
+Creating graph for item:  NaMnVO4
+Creating graph for item:  LiNaLu2F8
+Creating graph for item:  Na4VO(PO4)2
+Creating graph for item:  Dy2ZrO7
+Creating graph for item:  PbBiO2Cl
+Creating graph for item:  Na0.5Bi1.5O2Cl
+Creating graph for item:  Bi3TaO7
+Creating graph for item:  MTaO3
+Creating graph for item:  MTaO3
+Creating graph for item:  MTaO3
+Creating graph for item:  γ-Bi2MoO6 oxide
+Creating graph for item:  β-Li5AlO4
+Creating graph for item:  Li5(Al1- xFex)O4
+Creating graph for item:  LiCrO2-LiMnO2-Li2MnO3
+Creating graph for item:  SnB0.6P0.4O2.9
+Creating graph for item:  LiCo1-xMnxO2
+Creating graph for item:  LiCo1-xMnxO2
+Creating graph for item:  La0.9Sr0.1Ga0.8Mg0.2O3-δ
+Creating graph for item:  La0.75Sr0.25Cr0.5Mn0.5O3-δ
+Creating graph for item:  La0.8Sr0.2MnO3
+Creating graph for item:  LiFePO4/C
+Creating graph for item:  La0.75Sr0.25Cr0.5Mn0.5O3
+Creating graph for item:  Lithium titanium oxide
+Creating graph for item:  LiNi0.5Mn1.5O4
+Creating graph for item:  Ag2V4O11
+Creating graph for item:  LiFePO4
+Creating graph for item:  Li4Ti5O12
+Creating graph for item:  LiNi0.5Mn0.5O2
+Creating graph for item:  Li3-xNaxV2(PO4)3/C
+Creating graph for item:  LiNiCuZnO
+Creating graph for item:  LiSn2(PO4)3
+Creating graph for item:  lithium iron phosphate
+Creating graph for item:  Li1.2-xNaxNi0.13Co0.13Mn0.54O2
+Creating graph for item:  LiMO2
+Creating graph for item:  LiMO2
+Creating graph for item:  Li2MO3
+Creating graph for item:  Li2MO3
+Creating graph for item:  LiCoO2
+Creating graph for item:  LiNiO2
+Creating graph for item:  Li4Ti5O12
+Creating graph for item:  Li3V2(PO4)3
+Creating graph for item:  Ce0.8Sm0.2O1.9
+Creating graph for item:  LiFePO4
+Creating graph for item:  LiFe1-xMxPO4
+Creating graph for item:  LiFe1-xMxPO4
+Creating graph for item:  LiFe1-xMxPO4
+Creating graph for item:  Li2FeSiO4/C
+Creating graph for item:  La0.6Sr0.4Co0.2Fe0.8O3 - δ
+Creating graph for item:  Sm0.2Ce0.8O1.9
+Creating graph for item:  LiFeP
+Creating graph for item:  FeP
+Creating graph for item:  Na3V2(PO4)3
+Creating graph for item:  Li1.2Ni0.13Co0.13Mn0.54O2
+Creating graph for item:  Li4Ti5O12
+Creating graph for item:  LiNi0.5Mn0.5O2
+Creating graph for item:  LiMn2O4
+Creating graph for item:  Li4Ti5O12
+Creating graph for item:  Li3V2(PO4)3/C
+Creating graph for item:  LiFePO4/C
+Creating graph for item:  Li3V2(PO4)3
+Creating graph for item:  Li3V2(PO4)3@C
+Creating graph for item:  Li1+xAlxTi2-x(PO4)3
+Creating graph for item:  AlPO4
+Creating graph for item:  LiMn2O4
+Creating graph for item:  Li4Ti5O12/C
+Creating graph for item:  LiNi0.5Mn1.5O4
+Creating graph for item:  Li4/3Ti5/3O4
+Creating graph for item:  Li3V2(PO4)3/C
+Creating graph for item:  Pr1+xBa1-xCo2O5+δ
+Creating graph for item:  Li2Fe1-xVxSiO4/C
+Creating graph for item:  K0.45MnO2
+Creating graph for item:  FeNbO4
+Creating graph for item:  A2Mo3O8
+Creating graph for item:  A2Mo3O8
+Creating graph for item:  A2Mo3O8
+Creating graph for item:  P2- Na2/3Ni1/4TixMn3/4-xO2
+Creating graph for item:  Na2Mo2O7
+Creating graph for item:  Li2ZrO3
+Creating graph for item:  Li1.8ZrO3-δ
+Creating graph for item:  Li4Ti5O12
+Creating graph for item:  FeSO4
+Creating graph for item:  SrSnO3
+Creating graph for item:  BaCe0.8-xZrxY0.2O3-δ
+Creating graph for item:  Ba(1- x)SrxFe12O19
+Creating graph for item:  GaFe1-xMnxO3
+Creating graph for item:  Y1+yMnO3
+Creating graph for item:  YMn1-xCuxO3
+Creating graph for item:  La0.7-xGdxCa0.3MnO3
+Creating graph for item:  La0.6-xBixSr0.4MnO3
+Creating graph for item:  La2-x(Sr0.5Ca0.5)1+xMn2O7
+Creating graph for item:  BiFeO3
+Creating graph for item:  LaMnO3
+Creating graph for item:  lithium niobate
+Creating graph for item:  La0.05Li0.85NbO3
+Creating graph for item:  lithium vanadium phosphate
+Creating graph for item:  MgAl2O4
+Creating graph for item:  Sr3CaZr0.9Ta1.1O8.55
+Creating graph for item:  CaZr0.9In0.1O3-α
+Creating graph for item:  Li2+xTiO3+y
+Creating graph for item:  PMN
+Creating graph for item:  Li4SiO4
+Creating graph for item:  BiCuSeO
+Creating graph for item:  Bi12Ti1- xGexO20
+Creating graph for item:  LiMnO2
+Creating graph for item:  Ca13.7Eu0.3Mg2[SiO4]8
+Creating graph for item:  Ca13.7Eu0.3Mg2- xMnx[SiO4]8
+Creating graph for item:  Bi5(AlCl4)3
+Creating graph for item:  LiMnO2
+Creating graph for item:  LiMn2O4
+Creating graph for item:  Li4Mn5O12
+Creating graph for item:  La6.4Sr1.6Cu8O20 + δ
+Creating graph for item:  CaIn2- x - yHoxYbyO4
+Creating graph for item:  CaIn2O4:Ho3+, Yb3+
+Creating graph for item:  BiOCuS
+Creating graph for item:  LiNi0.33Co0.33Mn0.33O2
+Creating graph for item:  LiNi1/3Co1/3Mn1/3O2
+Creating graph for item:  tetragonal FeS
+Creating graph for item:  Bi3O2S3
+Creating graph for item:  Li2TiO3
+Creating graph for item:  LiM0.5Mn1.5O4
+Creating graph for item:  LiM0.5Mn1.5O4
+Creating graph for item:  Li1.33Mn1.67O4
+Creating graph for item:  Bi2W2O9
+Creating graph for item:  MgTa2O6
+Creating graph for item:  K0.45MnO2
+Creating graph for item:  Y2Ti2O7
+Creating graph for item:  LiTaO3
+Creating graph for item:  barium titanate: Ba0.75Sr0.25TiO3
+Creating graph for item:  SrFe12O19
+Creating graph for item:  LiCo1-xCaxO2
+Creating graph for item:  TbPO4
+Creating graph for item:  BiCu2VO6
+Creating graph for item:  KBaBP2O8:Eu3+
+Creating graph for item:  BaNbxFexTi1-2xO3
+Creating graph for item:  Barium titanate
+Creating graph for item:  (1-x)LaGaO3-xTiO2
+Creating graph for item:  LiNbO3
+Creating graph for item:  CaBiVMoO8
+Creating graph for item:  ZnTiO3
+Creating graph for item:  LiFePO4
+Creating graph for item:  Li1.05FePO4
+Creating graph for item:  Ca9Fe(PO4)7
+Creating graph for item:  3Al2O3·2SiO2,
+Creating graph for item:  Al2(WO4)3-Al2O3
+Creating graph for item:  Li1-xMxCoO2(x
+Creating graph for item:  ZnO-ZnFe2O4
+Creating graph for item:  CrNbO4
+Creating graph for item:  Ba0.85Ca0.15Ti0.9Zr0.1O3
+Creating graph for item:  Ca2(1-x)La7.6+x(SiO4)6O2:Eu0.4
+Creating graph for item:  La(1-x)AxCoO3
+Creating graph for item:  La(1-x)AxCoO3
+Creating graph for item:  Ca2Gd8(SiO4)6O2
+Creating graph for item:  Ca3Gd2(Si3O9)2
+Creating graph for item:  Sr2FeTiO6-δ
+Creating graph for item:  Ce0.8Sm0.2O1.9
+Creating graph for item:  Li2TiO3
+Creating graph for item:  Eu2CuO4
+Creating graph for item:  LiAlO2
+Creating graph for item:  lanthanum chromite
+Creating graph for item:  Bi3TiNbO9
+Creating graph for item:  PMN
+Creating graph for item:  La0.62Er0.05Ba0.33Fe0.2Mn0.8O3
+Creating graph for item:  Mg0.3Al1.4Ti1.3O5
+Creating graph for item:  MgAl8Ti6O25
+Creating graph for item:  Na0.5xLa1-0.5xTiO2+xN1-x
+Creating graph for item:  Na0.1La0.9TiO2.2N0.8
+Creating graph for item:  MnV2O6
+Creating graph for item:  Ag1-xLixNbO3
+Creating graph for item:  La0.8Sr0.2Ga0.8Mg0.115Co0.05O3
+Creating graph for item:  CaCu3Ru4O12
+Creating graph for item:  CoFe2O4
+Creating graph for item:  KNbO3
+Creating graph for item:  BaCe0.7In0.15Ta0.05Y0.1O3-δ
+Creating graph for item:  BaCe0.7Y0.3O3-δ
+Creating graph for item:  TbMn1-xGaxO3
+Creating graph for item:  BaTi1-xZrxO3
+Creating graph for item:  Ru1-xMoxSr2Eu1.5Ce0.5Cu2O10
+Creating graph for item:  Ca0.5Bi0.5FeO3
+Creating graph for item:  SrFe0.8Co0.2O3-δ
+Creating graph for item:  Li2Ni(WO4)2
+Creating graph for item:  Yb2Ge2O7
+Creating graph for item:  α-Ag3VO4
+Creating graph for item:  Cu3VO4
+Creating graph for item:  MnWO4
+Creating graph for item:  CeZn3
+Creating graph for item:  BaCo2V2O8
+Creating graph for item:  LixMn2O4
+Creating graph for item:  CaCuO2
+^CTraceback (most recent call last):
+  File "/home/kesava89/miniconda3/envs/research/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/kesava89/miniconda3/envs/research/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/kesava89/.vscode/extensions/ms-python.debugpy-2024.6.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py", line 39, in <module>
+    cli.main()
+  File "/home/kesava89/.vscode/extensions/ms-python.debugpy-2024.6.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 430, in main
+    run()
+  File "/home/kesava89/.vscode/extensions/ms-python.debugpy-2024.6.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "/home/kesava89/.vscode/extensions/ms-python.debugpy-2024.6.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/home/kesava89/.vscode/extensions/ms-python.debugpy-2024.6.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/home/kesava89/.vscode/extensions/ms-python.debugpy-2024.6.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+  File "/home/kesava89/MIT Project/Repos/ssm-synthesis-data-processing/grapher_neo4j.py", line 68, in <module>
+    neo4j_graph.create_graph(item)
+  File "/home/kesava89/MIT Project/Repos/ssm-synthesis-data-processing/grapher_neo4j.py", line 15, in create_graph
+    session.write_transaction(self._create_and_link_nodes, data)
+  File "/home/kesava89/miniconda3/envs/research/lib/python3.10/site-packages/neo4j/_meta.py", line 221, in inner
+    return f(*args, **kwargs)
+  File "/home/kesava89/miniconda3/envs/research/lib/python3.10/site-packages/neo4j/_sync/work/session.py", line 799, in write_transaction
+    return self._run_transaction(
+  File "/home/kesava89/miniconda3/envs/research/lib/python3.10/site-packages/neo4j/_sync/work/session.py", line 554, in _run_transaction
+    result = transaction_function(tx, *args, **kwargs)
+  File "/home/kesava89/MIT Project/Repos/ssm-synthesis-data-processing/grapher_neo4j.py", line 46, in _create_and_link_nodes
+    tx.run("MERGE (e:Element {name: $name})", name=element)
+  File "/home/kesava89/miniconda3/envs/research/lib/python3.10/site-packages/neo4j/_sync/work/transaction.py", line 172, in run
+    result._tx_ready_run(query, parameters)
+  File "/home/kesava89/miniconda3/envs/research/lib/python3.10/site-packages/neo4j/_sync/work/result.py", line 169, in _tx_ready_run
+    self._run(query, parameters, None, None, None, None, None, None)
+  File "/home/kesava89/miniconda3/envs/research/lib/python3.10/site-packages/neo4j/_sync/work/result.py", line 219, in _run
+    self._attach()
+  File "/home/kesava89/miniconda3/envs/research/lib/python3.10/site-packages/neo4j/_sync/work/result.py", line 405, in _attach
+    self._connection.fetch_message()
+  File "/home/kesava89/miniconda3/envs/research/lib/python3.10/site-packages/neo4j/_sync/io/_common.py", line 178, in inner
+    func(*args, **kwargs)
+  File "/home/kesava89/miniconda3/envs/research/lib/python3.10/site-packages/neo4j/_sync/io/_bolt.py", line 847, in fetch_message
+    tag, fields = self.inbox.pop(
+  File "/home/kesava89/miniconda3/envs/research/lib/python3.10/site-packages/neo4j/_sync/io/_common.py", line 72, in pop
+    self._buffer_one_chunk()
+  File "/home/kesava89/miniconda3/envs/research/lib/python3.10/site-packages/neo4j/_sync/io/_common.py", line 51, in _buffer_one_chunk
+    receive_into_buffer(self._socket, self._buffer, 2)
+  File "/home/kesava89/miniconda3/envs/research/lib/python3.10/site-packages/neo4j/_sync/io/_common.py", line 326, in receive_into_buffer
+    n = sock.recv_into(view[buffer.used:end], end - buffer.used)
+  File "/home/kesava89/miniconda3/envs/research/lib/python3.10/site-packages/neo4j/_async_compat/network/_bolt_socket.py", line 493, in recv_into
+    return self._wait_for_io(self._socket.recv_into, buffer, nbytes)
+  File "/home/kesava89/miniconda3/envs/research/lib/python3.10/site-packages/neo4j/_async_compat/network/_bolt_socket.py", line 468, in _wait_for_io
+    return func(*args, **kwargs)
+KeyboardInterrupt
